@@ -46,4 +46,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn sonar:sonar -Dsonar.projectKey=sonar-scanner-cli -Dsonar.projectName='sonar-scanner-cli'
+        run: mvn sonar:sonar -Dsonar.projectKey=antoine-vinot-sonarsource_sonar-scanner-cli_a3d4ccd7-9560-43ad-9f9e-440cd29c7df7 -Dsonar.projectName='sonar-scanner-cli'
